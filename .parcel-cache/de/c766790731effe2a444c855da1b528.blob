@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="8a0cb2a7e9ee41d8c0da376d6fad17f0">
+    <!-- <link rel="stylesheet" href="css/styles_sass.scss" /> -->
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <main>
+      <div>Red Text</div>
+    </main>
+    <script src="dac1de8a67430ef257ac6b198c0f9a5f"></script>
+  </body>
+</html>

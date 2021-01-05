@@ -1,0 +1,17 @@
+body {
+  background: blue;
+
+  @media (min-width: 768px) {
+    background: linear-gradient(#e98a00, #f5aa2f);
+  }
+}
+
+main {
+  div {
+    color: yellow;
+
+    @media (min-width: 768px) {
+      color: var(--div-color);
+    }
+  }
+}

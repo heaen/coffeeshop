@@ -1,0 +1,18 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.multiply = void 0;
+
+var myFunction = function myFunction() {
+  return console.log("hello world");
+};
+
+var multiply = function multiply(value1, value2) {
+  return value1 * value2;
+};
+
+exports.multiply = multiply;
+var _default = myFunction;
+exports.default = _default;
