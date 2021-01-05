@@ -6,7 +6,8 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "lint": "eslint src/js"
+    "lint": "eslint src/js",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
