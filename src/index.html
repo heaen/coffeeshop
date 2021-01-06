@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index Page</title>
     <link rel="stylesheet" href="css/main.scss" />
+    <link rel="shortcut icon" type="image/png" href="logo/Favicon.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
@@ -14,18 +15,41 @@
   <body>
     <header class="header">
       <div class="header__logo-box">
-        <img src="img/logo-white.png" alt="Logo" class="header__logo" />
+        <img
+          src="logo/Logo.svg"
+          alt="Logo"
+          class="header__logo icon_filter--white"
+        />
       </div>
       <div class="header__text-box">
         <h1 class="heading-primary">
           <span class="heading-primary--main">Rustica</span>
           <span class="heading-primary--sub">Bio und Fair seit 1991</span>
         </h1>
-        <a href="#" class="btn btn--white btn--animated">Zum Shop</a>
+        <a href="#" class="btn btn--anthrazit btn--animated">zum Shop</a>
       </div>
     </header>
     <main>
-      <div>Home</div>
+      <section class="section-about">
+        <div class="row">
+          <div class="col-1-of-2">
+            <h2 class="heading-secondary u-margin-bottom-big">
+              Rösterei & Café
+            </h2>
+            <p class="paragraph">
+              Kaffee aus Kiel, direkt gehandelt und geröstet in der eigenen
+              Rösterei, serviert im gemütlichen Café in der Innenstadt.
+            </p>
+          </div>
+          <div class="col-1-of-2">
+            <img
+              src="img/FEND-Coffee-shop.png"
+              alt="coffee shop inside"
+              class="section-about_image"
+            />
+          </div>
+        </div>
+      </section>
     </main>
     <script src="js/index.js"></script>
   </body>

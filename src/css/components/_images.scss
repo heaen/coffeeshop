@@ -1,0 +1,11 @@
+.section {
+  position: relative;
+
+  &-about_image {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    z-index: 10;
+    transition: all 0.2s;
+  }
+}

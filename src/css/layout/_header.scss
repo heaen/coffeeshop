@@ -1,0 +1,44 @@
+.header {
+  height: 120vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../img/FEND-Coffee-latte-art-3.png);
+  background-size: cover;
+  background-position: top;
+  top: -20rem;
+  position: relative;
+
+  &__logo-box {
+    position: absolute;
+    top: 22rem;
+    left: 10rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    text-align: center;
+  }
+}
+
+.icon_filter {
+  //white
+  &--white {
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(120%)
+      contrast(120%);
+  }
+  //black
+  &--black {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg)
+      brightness(120%) contrast(120%);
+  }
+}

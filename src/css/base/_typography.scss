@@ -1,0 +1,48 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.1%;
+  color: $color-white;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: normal;
+  padding: 0rem;
+}
+
+.heading-primary {
+  color: $color-white;
+  text-transform: normal;
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+
+  &--main {
+    display: block;
+    font-size: 9.6rem;
+    font-weight: 700;
+    margin-top: 7rem;
+    margin-bottom: 6rem;
+  }
+
+  &--sub {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 13rem;
+  }
+}
+
+.heading-secondary {
+  font-size: 4.8rem;
+  font-weight: 900;
+  display: inline-block;
+  color: $color-anthrazit;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
+}
+
+.paragraph {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-weight: 400;
+  color: $color-anthrazit;
+}
