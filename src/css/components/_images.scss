@@ -9,9 +9,11 @@
   }
 }
 
-.crop__center {
-  width: 60rem !important;
-  height: 39.1rem;
-  object-fit: cover;
-  object-position: center;
+.crop {
+  &__center {
+    width: 60rem !important;
+    height: 39.1rem;
+    object-fit: cover;
+    object-position: center;
+  }
 }

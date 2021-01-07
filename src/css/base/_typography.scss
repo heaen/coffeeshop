@@ -108,7 +108,8 @@ body {
 
 .link {
   margin-top: -2rem;
-  &__footer {
+  &__footer,
+  &__origin {
     &--white {
       font-size: 1.4rem;
       line-height: 1.8;
