@@ -1,11 +1,17 @@
 .section {
-  position: relative;
+  position: absolute;
 
   &-about_image {
-    position: absolute;
-    width: 40%;
-    height: auto;
-    z-index: 10;
+    position: relative;
     transition: all 0.2s;
+    margin-top: -2rem;
+    display: block;
   }
+}
+
+.crop__center {
+  width: 60rem !important;
+  height: 39.1rem;
+  object-fit: cover;
+  object-position: center;
 }

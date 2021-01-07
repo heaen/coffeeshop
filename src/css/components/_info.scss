@@ -1,0 +1,10 @@
+.info {
+  display: block;
+  padding-bottom: -10rem;
+
+  &-push {
+    border-left-width: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+  }
+}
