@@ -38,6 +38,14 @@ body {
   color: $color-anthrazit;
   letter-spacing: 0.2rem;
   transition: all 0.2s;
+
+  &__push {
+    background-color: $color-white;
+    padding-left: 10.1rem;
+    padding-top: 25rem;
+    padding-bottom: 5rem;
+    margin-top: -20vh;
+  }
 }
 
 .paragraph {
