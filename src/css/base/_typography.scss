@@ -42,10 +42,18 @@ body {
   &__push {
     background-color: $color-white;
     padding-left: 10.1rem;
-    padding-top: 25rem;
     padding-bottom: 5rem;
     margin-top: -20vh;
   }
+}
+
+.heading-test {
+  font-size: 4.8rem;
+  font-weight: 900;
+  display: inline-block;
+  color: $color-white;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
 }
 
 .heading-tertiary {
@@ -85,14 +93,6 @@ body {
       display: block;
     }
   }
-}
-
-.paragraph {
-  font-size: 1.8rem;
-  line-height: 1.8;
-  font-weight: 400;
-  color: $color-anthrazit;
-
   &__anthrazit {
     font-size: 1.4rem;
     line-height: 1.8;
@@ -103,6 +103,24 @@ body {
     &--block {
       display: block;
     }
+  }
+}
+
+.description {
+  &__white {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: $color-white;
+    line-height: 2;
+    display: block;
+  }
+
+  &__grey {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2;
+    color: $color-grey-medium;
+    display: block;
   }
 }
 
