@@ -54,6 +54,8 @@ body {
   color: $color-white;
   letter-spacing: 0.2rem;
   transition: all 0.2s;
+  display: block;
+  line-height: 1.5;
 }
 
 .heading-tertiary {
