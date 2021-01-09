@@ -49,6 +49,8 @@
 .btn-secondary {
   &:link,
   &:visited {
+    background-color: none;
+    border: 3px solid $color-white;
     color: $color-white;
     font-weight: 400;
     text-transform: normal;
@@ -63,23 +65,15 @@
   }
 
   &:hover {
-    background-color: $color-button-hover;
+    border: 3px solid transparent;
+    background-color: $color-black;
     box-shadow: 0 0.5rem 2rem rgba($color-black, 0.25);
   }
 
   &:active {
+    border: 3px solid transparent;
     background-color: $color-button-active;
     box-shadow: 0 0.5rem 2rem rgba($color-black, 0.25);
-  }
-
-  &--border {
-    background-color: none;
-    border: 2px solid $color-white;
-    color: $color-white;
-
-    &::after {
-      background-color: $color-anthrazit;
-    }
   }
 
   &::after {
@@ -87,7 +81,7 @@
     display: inline-block;
     height: 100%;
     width: 100%;
-    border-radius: 10rem;
+    border-radius: 0.5rem;
     position: absolute;
     top: 0;
     left: 0;
@@ -118,5 +112,17 @@
   &:active {
     box-shadow: 0 0.5rem 2rem rgba($color-anthrazit, 0.15);
     transform: translateY(0);
+  }
+}
+
+.btn {
+  position: relative;
+
+  &__center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
 }
