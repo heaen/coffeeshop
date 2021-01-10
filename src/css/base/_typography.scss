@@ -45,6 +45,13 @@ body {
     padding-bottom: 5rem;
     margin-top: -20vh;
   }
+
+  &--center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 }
 
 .heading-test {
@@ -106,6 +113,10 @@ body {
       display: block;
     }
   }
+}
+
+.line {
+  line-height: 1.2;
 }
 
 .description {

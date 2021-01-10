@@ -32,6 +32,20 @@
   }
 }
 
+.section-incredients {
+  background-color: $color-white;
+  padding-top: 16rem;
+  padding-bottom: 2rem;
+  position: relative;
+
+  &__text-box {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
 .section-map {
   background-color: $color-white;
   padding-top: 25rem;
