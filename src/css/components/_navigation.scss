@@ -1,0 +1,27 @@
+.nav {
+  position: fixed;
+  line-height: 1.5;
+  padding-top: 2.3rem;
+  padding-left: 65rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: 9;
+  transition: all 0.2s;
+}
+
+.nav-menu {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  padding: 6.6rem;
+  transition: all 0.2s ease-out;
+
+  &:hover {
+    text-decoration-line: overline;
+  }
+
+  &:focus {
+    text-decoration-line: overline;
+  }
+}
