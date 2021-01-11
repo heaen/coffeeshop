@@ -2,9 +2,10 @@
   position: fixed;
   line-height: 1.5;
   padding-top: 2.3rem;
-  padding-left: 65rem;
+  padding-left: 75rem;
   display: flex;
-  justify-content: space-between;
+  flex-flow: wrap;
+  justify-content: right;
   z-index: 9;
   transition: all 0.2s;
 }
@@ -24,4 +25,8 @@
   &:focus {
     text-decoration-line: overline;
   }
+}
+
+.change-color {
+  background-color: $color-white;
 }
