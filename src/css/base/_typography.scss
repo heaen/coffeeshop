@@ -109,6 +109,14 @@ body {
     color: $color-anthrazit;
     margin-top: -2rem;
 
+    &--incredient {
+      font-size: 1.4rem;
+    line-height: 1.8;
+    font-weight: 400;
+    color: $color-anthrazit;
+      margin-top: 0;
+    }
+
     &--block {
       display: block;
     }
