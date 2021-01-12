@@ -7,10 +7,149 @@
     <link rel="stylesheet" href="../css/main.scss" />
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <nav class="nav">
+      <div class="nav-overall">
+        <div class="header__logo-box">
+          <img
+            src="../logo/Logo.svg"
+            alt="Logo"
+            class="header__logo icon_filter--white"
+          />
+        </div>
+        <div class="nav-line">
+          <a class="nav-menu link-underline" href="cafe.html">das Café</a>
+          <a class="nav-menu link-underline" href="origin.html">Herkunft</a>
+          <a class="nav-menu link-underline" href="shop.html">Shop</a>
+        </div>
+      </div>
+    </nav>
+    <header class="header-cafe">
+      <div class="header__text-box"></div>
+    </header>
     <main>
-      <div class="hero">HERO</div>
-      <a href="/">Home</a>
+      <section class="section-about">
+        <div class="info u-margin-bottom-big">
+          <div class="row">
+            <div class="col-1-of-2">
+              <h2 class="heading-secondary u-margin-bottom-big">
+                Rösterei & Café
+              </h2>
+              <p class="paragraph u-margin-bottom-medium">
+                Kaffee aus Kiel, direkt gehandelt und geröstet in der eigenen
+                Rösterei, serviert im gemütlichen Café in der Innenstadt.
+              </p>
+              <div class="row">
+                <div class="col-1-of-2">
+                  <p class="paragraph">
+                    <span class="paragraph__anthrazit--block"
+                      >Komm vorbei!</span
+                    >
+                    <span class="paragraph__anthrazit--block"
+                      >Fraunhoferstr. 13, Kiel</span
+                    >
+                  </p>
+                </div>
+                <div class="col-1-of-2">
+                  <p class="paragraph">
+                    <span class="paragraph__anthrazit--block"
+                      >Mo – Fr 8–18 Uhr</span
+                    >
+                    <span class="paragraph__anthrazit--block"
+                      >Sa 11–18 Uhr</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-2">
+              <img
+                src="../img/FEND-Coffee-machine-2.png"
+                alt="coffee machine"
+                class="section-about_image crop__center"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="info">
+          <div class="info-push">
+            <h2 class="heading-secondary u-margin-bottom-big">
+              Frisches Gebäck von nebenan
+            </h2>
+            <p class="paragraph">
+              Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf
+              es einen letzten Blick zurück auf die Skyline seiner Heimatstadt
+              Buchstabhausen, die Headline von Alphabetdorf. Wehmütig lief ihm
+              eine rhetorische Frage über die Wange, dann setzte es seinen Weg
+              fort. Unterwegs traf es eine Copy. Die Copy warnte das
+              Blindtextchen, da, wo sie herkäme wäre sie zigmal umgeschrieben
+              worden und alles, was von ihrem Ursprung noch übrig wäre, sei das
+              Wort "und" und das Blindtextchen solle umkehren und wieder in sein
+              eigenes, sicheres Land zurückkehren.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-map">
+        <div class="heading-secondary__push">
+          <h2 class="heading-secondary u-margin-bottom-xsmall">Komm vorbei!</h2>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1162.9130110443957!2d10.121215656727165!3d54.342383107338435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b2560c4923d5c7%3A0xca5dbbc0c523e4f!2sFraunhoferstra%C3%9Fe%2014%2C%2024118%20Kiel!5e0!3m2!1sde!2sde!4v1610018852395!5m2!1sde!2sde"
+          class="map"
+          tabindex="0"
+        ></iframe>
+        >
+      </section>
+
+      <section class="section-footer">
+        <div class="row">
+          <div class="col-1-of-2">
+            <p class="footer__logo-box">
+              <img
+                src="../logo/Logo.svg"
+                alt="Logo"
+                class="footer__logo icon_filter--white"
+              />
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1-of-4">
+            <h3 class="heading-tertiary--main">Rustica</h3>
+            <h3 class="heading-tertiary--sub">Rösterei & Café</h3>
+          </div>
+          <div class="col-1-of-4">
+            <p class="paragraph__white u-margin-bottom-medium">
+              <span class="paragraph__white--block"> Komm uns besuchen!</span>
+              <span class="paragraph__white--block"
+                >Fraunhoferstr. 13, Kiel</span
+              >
+            </p>
+            <p class="paragraph__white">
+              <span class="paragraph__white--block">Mo – Fr 8–18 Uhr </span>
+              <span class="paragraph__white--block">Sa 11–18 Uhr</span>
+            </p>
+          </div>
+          <div class="col-1-of-4">
+            <div class="link">
+              <div class="link__footer">
+                <a href="#" class="link__footer--white">Café</a>
+                <a href="#" class="link__footer--white">Shop</a>
+                <a href="#" class="link__footer--white">Herkunft</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="link">
+              <div class="link__footer">
+                <a href="#" class="link__footer--white">Datenschutz</a>
+                <a href="#" class="link__footer--white">Impressum</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="../js/index.js"></script>
   </body>
