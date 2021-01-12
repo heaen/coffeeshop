@@ -6,6 +6,11 @@
     margin-top: -2rem;
     display: block;
   }
+
+  &-gallery {
+    position: relative;
+    display: block;
+  }
 }
 
 .crop {
@@ -36,4 +41,9 @@
 
 .icon__explore {
   height: 3rem;
+}
+
+.gallery-image {
+  width: 29rem;
+  height: auto;
 }
