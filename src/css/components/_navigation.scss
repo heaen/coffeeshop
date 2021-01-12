@@ -1,32 +1,48 @@
 .nav {
   position: fixed;
-  line-height: 1.5;
-  padding-top: 2.3rem;
-  padding-left: 75rem;
+  line-height: 2;
+  width: 100%;
+  color: $color-white;
+  background-color: transparent;
   display: flex;
-  flex-flow: wrap;
-  justify-content: right;
+  flex-flow: row-reverse;
+  padding: 2rem;
   z-index: 9;
-  transition: all 0.2s;
+  transition: background-color 0.4s ease-out;
+}
+
+li a {
+  transition: all 0.5s;
 }
 
 .nav-menu {
   text-decoration: none;
-  color: #ffffff;
+  color: $color-white;
+  background-color: transparent;
   font-family: "Roboto", sans-serif;
   font-size: 1.8rem;
-  padding: 6.6rem;
-  transition: all 0.2s ease-out;
-
-  &:hover {
-    text-decoration-line: overline;
-  }
-
-  &:focus {
-    text-decoration-line: overline;
-  }
+  padding: 0 3rem;
 }
 
-.change-color {
-  background-color: $color-white;
+.link-underline {
+  position: relative;
+  color: $color-white;
+  text-decoration: none;
+
+  &:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 1px;
+    background-color: $color-white;
+    content: "";
+    -webkit-transition: width 0.5s;
+    transition: width 0.5s;
+  }
+
+  &:hover:after {
+    width: 100%;
+  }
 }
