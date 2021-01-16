@@ -14,6 +14,7 @@ body {
   text-transform: normal;
   backface-visibility: hidden;
   margin-bottom: 6rem;
+  line-height: 1.1;
 
   &--main {
     display: block;
@@ -38,6 +39,7 @@ body {
   color: $color-anthrazit;
   letter-spacing: 0.2rem;
   transition: all 0.2s;
+  line-height: 1.1;
 
   &__push {
     background-color: $color-white;
@@ -111,9 +113,9 @@ body {
 
     &--incredient {
       font-size: 1.4rem;
-    line-height: 1.8;
-    font-weight: 400;
-    color: $color-anthrazit;
+      line-height: 1.8;
+      font-weight: 400;
+      color: $color-anthrazit;
       margin-top: 0;
     }
 
