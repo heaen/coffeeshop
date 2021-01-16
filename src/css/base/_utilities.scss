@@ -24,4 +24,8 @@
 
 .u-margin-bottom-gallery {
   margin-bottom: 2.1rem;
+
+  @include respond(tab-port) {
+    margin-bottom: 0;
+  }
 }
