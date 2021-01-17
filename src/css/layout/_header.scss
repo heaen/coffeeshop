@@ -74,3 +74,30 @@
     text-align: center;
   }
 }
+
+.header-origin {
+  height: 65vh;
+  background-image: url(../img/FEND-Coffee-beans-hand-2.png);
+  background-size: cover;
+  background-position: top;
+
+  position: relative;
+
+  &__logo-box {
+    position: absolute;
+    left: 10rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+    margin-right: auto;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
