@@ -1,0 +1,45 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+//ORDER: base - typo > general layout - grid - > page layout > components
+
+//media querys
+/*
+0px - 576px; phone                $media-sm: 
+576px - 768px; tablet portrait    $media-md: 
+768px - 992px; tablet landscape   $media-lg: 
+992px - 1200px; desktop           $media-xl: 
+1200px - 1920px; monitor          $media-xxl: 
+*/
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 36em) {
+      //576px
+      @content;
+    }
+  }
+  @if $breakpoint == tab-port {
+    @media (max-width: 48em) {
+      //768px
+      @content;
+    }
+  }
+  @if $breakpoint == tab-land {
+    @media (max-width: 62em) {
+      //992px
+      @content;
+    }
+  }
+  @if $breakpoint == big-desktop {
+    @media (min-width: 75em) {
+      //1200px
+      @content;
+    }
+  }
+}

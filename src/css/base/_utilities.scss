@@ -1,0 +1,31 @@
+.u-center-text {
+  text-align: center;
+}
+
+.u-margin-bottom-xbig {
+  margin-bottom: 13rem;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 2rem;
+}
+
+.u-margin-bottom-xsmall {
+  margin-bottom: 1rem;
+}
+
+.u-margin-bottom-gallery {
+  margin-bottom: 2.1rem;
+
+  @include respond(tab-port) {
+    margin-bottom: 0;
+  }
+}

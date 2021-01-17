@@ -1,0 +1,130 @@
+.header {
+  height: 65vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../img/FEND-Coffee-latte-art-3.png);
+  background-size: cover;
+  background-position: top;
+
+  position: relative;
+
+  &__logo-box {
+    position: absolute;
+    left: 10rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+    margin-right: auto;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+.icon_filter {
+  //white
+  &--white {
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(120%)
+      contrast(120%);
+  }
+  //black
+  &--black {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg)
+      brightness(120%) contrast(120%);
+  }
+}
+
+.header-cafe {
+  height: 65vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../img/FEND-Coffee-shop.png);
+  background-size: cover;
+  background-position: top;
+
+  position: relative;
+
+  &__logo-box {
+    position: absolute;
+    left: 10rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+    margin-right: auto;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+.header-origin {
+  height: 65vh;
+  background-image: url(../img/FEND-Coffee-beans-hand-2.png);
+  background-size: cover;
+  background-position: top;
+
+  position: relative;
+
+  &__logo-box {
+    position: absolute;
+    left: 10rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+    margin-right: auto;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+.header-shop {
+  height: 65vh;
+  background-image: url(../img/FEND-Coffee-sign.png);
+  background-size: cover;
+  background-position: top;
+
+  position: relative;
+
+  &__logo-box {
+    position: absolute;
+    left: 10rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+    margin-right: auto;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}

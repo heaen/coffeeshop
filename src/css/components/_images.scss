@@ -1,0 +1,56 @@
+.section {
+  position: absolute;
+
+  &-about_image {
+    position: relative;
+    margin-top: -2rem;
+    display: block;
+  }
+
+  &-gallery {
+    position: relative;
+    display: block;
+  }
+}
+
+.crop {
+  &__center {
+    width: 60rem !important;
+    height: 39.1rem;
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+  }
+}
+
+.image {
+  width: auto;
+  position: absolute;
+  background: #e9e9e9;
+
+  &__explore {
+    position: relative;
+    object-position: left;
+    display: block;
+    max-width: 100%;
+  }
+}
+
+.background-color {
+  background-color: $color-grey-light;
+}
+
+.icon__explore {
+  height: 3rem;
+}
+
+.gallery-image {
+  width: 29rem;
+  height: auto;
+}
+
+.pseudo-video {
+  max-width: 85vw;
+  display: flex;
+  align-items: center;
+}

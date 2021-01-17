@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index Page</title>
+    <meta
+      name="description"
+      content="Rustica ist eine Kaffee-Rösterei mit angeschlossenem Café. 
+      Hier wird der Kaffee seit 1991, fair und bio, direkt im Herzen von Kiel produziert."
+    />
+    <meta name="keywords" content="Kiel, Kaffee, Rösterei, Café, bio, fair" />
+    <title>Rustica Rösterei & Café</title>
     <link rel="stylesheet" href="css/main.scss" />
+    <link rel="shortcut icon" type="image/png" href="logo/Logo.svg" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
@@ -12,21 +19,420 @@
     />
   </head>
   <body>
-    <header class="header">
-      <div class="header__logo-box">
-        <img src="img/logo-white.png" alt="Logo" class="header__logo" />
+    <nav class="nav">
+      <div class="nav-overall">
+        <div class="header__logo-box">
+          <a href="index.html">
+            <img
+              src="logo/Logo.svg"
+              alt="Logo"
+              class="header__logo icon_filter--white"
+          /></a>
+        </div>
+        <ul class="nav-line">
+          <li class="nav-menu">
+            <a class="link-underline" href="my-subpage/cafe.html">das Café</a>
+          </li>
+          <li class="nav-menu">
+            <a class="link-underline" href="my-subpage/origin.html">Herkunft</a>
+          </li>
+          <li class="nav-menu">
+            <a class="link-underline" href="my-subpage/shop.html">Shop</a>
+          </li>
+        </ul>
       </div>
+    </nav>
+    <header class="header">
       <div class="header__text-box">
         <h1 class="heading-primary">
           <span class="heading-primary--main">Rustica</span>
           <span class="heading-primary--sub">Bio und Fair seit 1991</span>
         </h1>
-        <a href="#" class="btn btn--white btn--animated">Zum Shop</a>
+        <a href="#" class="btn btn--anthrazit btn--animated">zum Shop</a>
       </div>
     </header>
     <main>
-      <div>Home</div>
+      <section class="section-about">
+        <div class="push-container">
+          <div class="info u-margin-bottom-big">
+            <div class="row">
+              <div class="col-1-of-2">
+                <h2 class="heading-secondary u-margin-bottom-big">
+                  Rösterei & Café
+                </h2>
+                <p class="paragraph u-margin-bottom-medium">
+                  Kaffee aus Kiel, direkt gehandelt und geröstet in der eigenen
+                  Rösterei, serviert im gemütlichen Café in der Innenstadt.
+                </p>
+                <div class="row">
+                  <div class="col-1-of-2">
+                    <p class="paragraph">
+                      <span class="paragraph__anthrazit--block"
+                        >Komm vorbei!</span
+                      >
+                      <span class="paragraph__anthrazit--block"
+                        >Fraunhoferstr. 13, Kiel</span
+                      >
+                    </p>
+                  </div>
+                  <div class="col-1-of-2">
+                    <p class="paragraph">
+                      <span class="paragraph__anthrazit--block"
+                        >Mo – Fr 8–18 Uhr</span
+                      >
+                      <span class="paragraph__anthrazit--block"
+                        >Sa 11–18 Uhr</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-1-of-2">
+                <img
+                  src="img/FEND-Coffee-shop.png"
+                  alt="coffee shop inside"
+                  class="section-about_image crop__center"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="info">
+            <div class="row">
+              <div class="col-1-of-2">
+                <img
+                  src="img/FEND-coffee-plant.png"
+                  alt="coffee shop inside"
+                  class="section-about_image crop__center"
+                />
+              </div>
+              <div class="col-1-of-2">
+                <div class="info-push">
+                  <h2 class="heading-secondary u-margin-bottom-big">
+                    Bio und Fair
+                  </h2>
+                  <p class="paragraph">
+                    Weit hinten, hinter den Wortbergen, fern der Länder Vokalien
+                    und Konsonantien leben die Blindtexte. Weit hinten, hinter
+                    den Wortbergen, fern der Länder Vokalien und Konsonantien
+                    leben die Blindtexte. Und das alles in bester Bio Qualität
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-explore">
+        <h2 class="heading-test push">Entdecke unsere</h2>
+        <h2 class="heading-test push">Kaffee Sorten</h2>
+        <div class="push-container">
+          <div class="row">
+            <div class="col-1-of-4">
+              <div class="background-color">
+                <img
+                  src="img/FEND_Coffee_Costa-Rica 2.png"
+                  alt="coffee bag type Costa Rica"
+                  class="image__explore u-margin-bottom-medium"
+                />
+              </div>
+              <p class="description__white">Costa Rica</p>
+              <p class="description__grey u-margin-bottom-small">
+                6,90€ – 26,90€
+              </p>
+
+              <div class="col-1-of-8 u-margin-bottom-big">
+                <img
+                  src="icn/coffeebones.svg"
+                  alt="Icon Coffeebones"
+                  class="icon__explore icon_filter--white"
+                />
+              </div>
+              <div class="col-1-of-8">
+                <img
+                  src="icn/frenchpress.svg"
+                  alt="Icon Frenchpress"
+                  class="icon__explore icon_filter--white"
+                />
+              </div>
+              <div class="col-1-of-8">
+                <img
+                  src="icn/handcrafted.svg"
+                  alt="Icon Handcrafted"
+                  class="icon__explore icon_filter--white"
+                />
+              </div>
+            </div>
+            <div class="col-1-of-4">
+              <div class="background-color">
+                <img
+                  src="img/FEND_Coffee_Costa-Rica 2.png"
+                  alt="coffee bag type Äthiopia"
+                  class="image__explore u-margin-bottom-medium"
+                />
+              </div>
+              <p class="description__white">Äthiopien</p>
+              <p class="description__grey u-margin-bottom-small">
+                6,90€ – 26,90€
+              </p>
+
+              <div class="col-1-of-8 u-margin-bottom-big">
+                <img
+                  src="icn/coffeebones.svg"
+                  alt="Icon Coffeebones"
+                  class="icon__explore icon_filter--white"
+                />
+              </div>
+              <div class="col-1-of-8">
+                <img
+                  src="icn/frenchpress.svg"
+                  alt="Icon Frenchpress"
+                  class="icon__explore icon_filter--white"
+                />
+              </div>
+              <div class="col-1-of-8">
+                <img
+                  src="icn/handcrafted.svg"
+                  alt="Icon Handcrafted"
+                  class="icon__explore icon_filter--white"
+                />
+              </div>
+            </div>
+            <div class="col-1-of-4">
+              <div class="background-color">
+                <img
+                  src="img/FEND_Coffee_Costa-Rica 2.png"
+                  alt="coffee bag type Costa Rica"
+                  class="image__explore u-margin-bottom-medium"
+                />
+              </div>
+              <p class="description__white">Costa Rica</p>
+              <p class="description__grey u-margin-bottom-small">
+                6,90€ – 26,90€
+              </p>
+
+              <div class="col-1-of-8 u-margin-bottom-big">
+                <img
+                  src="icn/coffeebones.svg"
+                  alt="Icon Coffeebones"
+                  class="icon__explore icon_filter--white"
+                />
+              </div>
+              <div class="col-1-of-8">
+                <img
+                  src="icn/frenchpress.svg"
+                  alt="Icon Frenchpress"
+                  class="icon__explore icon_filter--white"
+                />
+              </div>
+              <div class="col-1-of-8">
+                <img
+                  src="icn/handcrafted.svg"
+                  alt="Icon Handcrafted"
+                  class="icon__explore icon_filter--white"
+                />
+              </div>
+            </div>
+            <div class="col-1-of-4">
+              <div class="background-color">
+                <img
+                  src="img/FEND_Coffee_Costa-Rica 2.png"
+                  alt="coffee bag type Äthiopia"
+                  class="image__explore u-margin-bottom-medium"
+                />
+              </div>
+              <p class="description__white">Äthiopien</p>
+              <p class="description__grey u-margin-bottom-small">
+                6,90€ – 26,90€
+              </p>
+
+              <div class="col-1-of-8">
+                <img
+                  src="icn/coffeebones.svg"
+                  alt="Icon Coffeebones"
+                  class="icon__explore icon_filter--white"
+                />
+              </div>
+              <div class="col-1-of-8">
+                <img
+                  src="icn/frenchpress.svg"
+                  alt="Icon Frenchpress"
+                  class="icon__explore icon_filter--white"
+                />
+              </div>
+              <div class="col-1-of-8">
+                <img
+                  src="icn/handcrafted.svg"
+                  alt="Icon Handcrafted"
+                  class="icon__explore icon_filter--white"
+                />
+              </div>
+            </div>
+          </div>
+
+          <a
+            href="#"
+            class="btn-secondary btn-secondary--border btn-secondary--animated btn__center u-margin-bottom-big"
+            >alle Produkte</a
+          >
+        </div>
+      </section>
+
+      <section class="section-origin">
+        <div class="section-origin__text-box">
+          <h3 class="heading-tertiary">
+            <span class="heading-tertiary--main">Herkunft</span>
+          </h3>
+          <p class="paragraph__white u-margin-bottom-medium">
+            Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und
+            Konsonantien leben die Blindtexte. Und das alles in bester Bio
+            Qualität.
+          </p>
+          <a href="#" class="link__origin--white">mehr</a>
+        </div>
+      </section>
+
+      <section class="section-incredients">
+        <div class="section-incredients__text-box">
+          <div class="heading-secondary">
+            <h2 class="heading-secondary u-margin-bottom-big">
+              Das steckt drin
+            </h2>
+          </div>
+        </div>
+        <div class="push-container">
+          <div class="row">
+            <div class="col-1-of-2">
+              <img
+                src="img/FEND_Coffee_Costa-Rica 2.png"
+                alt="coffee bag type Äthiopia"
+                class="image__explore u-margin-bottom-medium"
+              />
+            </div>
+            <div class="col-1-of-2">
+              <div class="row">
+                <div class="col-1-of-2">
+                  <img
+                    src="icn/Icon Kaffee Tasse.svg"
+                    alt="Icon Cup of Coffee"
+                    class="icon__explore icon_filter--anthrazit"
+                  />
+                </div>
+                <div class="col-1-of-2">
+                  <p
+                    class="paragraph__anthrazit--incredient line u-margin-bottom-medium"
+                  >
+                    Bester <br />
+                    Geschmack
+                  </p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-1-of-2">
+                  <img
+                    src="icn/Icon Kaffee Tasse.svg"
+                    alt="Icon Cup of Coffee"
+                    class="icon__explore icon_filter--anthrazit"
+                  />
+                </div>
+                <div class="col-1-of-2">
+                  <p
+                    class="paragraph__anthrazit--incredient line u-margin-bottom-medium"
+                  >
+                    Fair <br />Gehandelt
+                  </p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-1-of-2">
+                  <img
+                    src="icn/Icon-Kaffee Pflanze.svg"
+                    alt="Icon Coffee Plant"
+                    class="icon__explore icon_filter--anthrazit"
+                  />
+                </div>
+                <div class="col-1-of-2">
+                  <p
+                    class="paragraph__anthrazit--incredient line u-margin-bottom-medium"
+                  >
+                    Bio <br />Qualität
+                  </p>
+                </div>
+              </div>
+              <a href="#" class="btn btn--anthrazit btn--animated">zum Shop</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-map">
+        <div class="heading-secondary__push">
+          <h2 class="heading-secondary u-margin-bottom-xsmall">Komm vorbei!</h2>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1162.9130110443957!2d10.121215656727165!3d54.342383107338435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b2560c4923d5c7%3A0xca5dbbc0c523e4f!2sFraunhoferstra%C3%9Fe%2014%2C%2024118%20Kiel!5e0!3m2!1sde!2sde!4v1610018852395!5m2!1sde!2sde"
+          class="map"
+          tabindex="0"
+        ></iframe>
+        >
+      </section>
+
+      <section class="section-footer">
+        <div class="push-container">
+          <div class="row">
+            <div class="col-1-of-2">
+              <p class="footer__logo-box">
+                <img
+                  src="logo/Logo.svg"
+                  alt="Logo"
+                  class="footer__logo icon_filter--white"
+                />
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1-of-4">
+              <h3 class="heading-tertiary--main">Rustica</h3>
+              <h3 class="heading-tertiary--sub">Rösterei & Café</h3>
+            </div>
+            <div class="col-1-of-4">
+              <p class="paragraph__white u-margin-bottom-medium">
+                <span class="paragraph__white--block"> Komm uns besuchen!</span>
+                <span class="paragraph__white--block"
+                  >Fraunhoferstr. 13, Kiel</span
+                >
+              </p>
+              <p class="paragraph__white">
+                <span class="paragraph__white--block">Mo – Fr 8–18 Uhr </span>
+                <span class="paragraph__white--block">Sa 11–18 Uhr</span>
+              </p>
+            </div>
+            <div class="col-1-of-4">
+              <div class="link">
+                <div class="link__footer">
+                  <a href="#" class="link__footer--white">Café</a>
+                  <a href="#" class="link__footer--white">Shop</a>
+                  <a href="#" class="link__footer--white">Herkunft</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-4">
+              <div class="link">
+                <div class="link__footer">
+                  <a href="#" class="link__footer--white">Datenschutz</a>
+                  <a href="my-subpage/imprint.html" class="link__footer--white"
+                    >Impressum</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <script src="js/index.js"></script>
+
+    <script src="js/navbar.js"></script>
   </body>
 </html>

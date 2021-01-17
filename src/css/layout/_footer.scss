@@ -1,0 +1,14 @@
+.footer {
+  top: -20rem;
+  position: absolute;
+
+  &__logo-box {
+    position: relative;
+    top: 4rem;
+    left: 2rem;
+  }
+
+  &__logo {
+    height: 6rem;
+  }
+}
