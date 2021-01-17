@@ -86,11 +86,19 @@ body {
     font-size: 1.8rem;
     font-weight: 400;
   }
+
+  &--black {
+    color: $color-black;
+    font-size: 4.2rem;
+    font-weight: 900;
+    display: block;
+    line-height: 1.1;
+  }
 }
 
 .paragraph {
   font-size: 1.8rem;
-  line-height: 1.8;
+  line-height: 1.5;
   font-weight: 400;
   color: $color-anthrazit;
 
@@ -161,4 +169,12 @@ body {
       display: block;
     }
   }
+}
+
+.unordered-list {
+  font-size: 1.8rem;
+  line-height: 2;
+  font-weight: 400;
+  color: $color-anthrazit;
+  list-style-type: none;
 }

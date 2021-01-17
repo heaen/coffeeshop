@@ -23,8 +23,8 @@ html {
 
   @include respond(phone) {
     //width < 576px
-    //1rem is 7px = 7/16
-    font-size: 43.75%;
+    //1rem is 9px = 9/16
+    font-size: 56.25%;
   }
 
   @include respond(big-desktop) {

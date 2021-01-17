@@ -46,13 +46,6 @@
   }
 }
 
-.section-imprint {
-  background-color: $color-white;
-  height: 50rem;
-  position: relative;
-  max-width: 100%;
-}
-
 .section-gallery {
   background-color: $color-white;
   padding-bottom: 2rem;
@@ -112,5 +105,20 @@
   @include respond(tab-land) {
     padding-left: 15rem;
     padding-right: 15rem;
+  }
+}
+
+.section-imprint {
+  background-color: $color-white;
+  padding: 22rem 30rem 22rem 30rem;
+  position: relative;
+  max-width: 100%;
+
+  @include respond(phone) {
+    padding: 22rem 2rem 22rem 2rem;
+  }
+
+  @include respond(tab-land) {
+    padding: 22rem 20rem 22rem 20rem;
   }
 }
