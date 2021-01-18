@@ -17,6 +17,10 @@
   &__logo-box {
     position: absolute;
     left: 10rem;
+
+    @include respond(tab-port) {
+      left: 2.4rem;
+    }
   }
 
   &__logo {

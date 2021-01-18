@@ -1,4 +1,4 @@
-.nav {
+.navD {
   position: fixed;
   line-height: 2;
   width: 100%;
@@ -10,6 +10,10 @@
   z-index: 9;
   transition: background-color 0.4s ease-out;
 
+  @include respond(tab-port) {
+    display: none;
+  }
+
   &-menu {
     text-decoration: none;
     color: $color-white;
@@ -19,7 +23,71 @@
     padding: 0 3rem;
     list-style: none;
     display: inline;
+
+    @include respond(tab-port) {
+      display: none;
+    }
   }
+}
+
+.navM {
+  position: fixed;
+  line-height: 2;
+  width: 100%;
+  color: $color-white;
+  background-color: transparent;
+  display: none;
+  flex-flow: row-reverse;
+  padding: 2rem;
+  z-index: 9;
+  transition: background-color 0.4s ease-out;
+
+  @include respond(tab-port) {
+    display: flex;
+  }
+
+  &-menu {
+    text-decoration: none;
+    color: $color-white;
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    padding: 0 3rem;
+    list-style: none;
+    display: flex;
+
+    @include respond(tab-port) {
+      display: inline;
+    }
+  }
+}
+
+.hamburger-menu {
+  height: 2rem;
+}
+
+/*
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.97);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+*/
+
+.overlay-content a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 5rem;
+  color: #ffffff;
+  display: none;
+  transition: 0.3s;
+  font-family: "Roboto", sans-serif;
 }
 
 .navbar-fixed-top.scrolled {
