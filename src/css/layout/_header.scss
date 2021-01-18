@@ -8,8 +8,11 @@
     url(../img/FEND-Coffee-latte-art-3.png);
   background-size: cover;
   background-position: top;
-
   position: relative;
+
+  @include respond(tab-port) {
+    height: 75vh;
+  }
 
   &__logo-box {
     position: absolute;
