@@ -68,7 +68,7 @@
     </div>
 
     <main>
-      <section class="contact-form">
+      <section class="section-contact">
         <div class="push-container">
           <div class="row">
             <div class="col-1-of-2">
@@ -77,7 +77,67 @@
                 Schreib uns gern!
               </h2>
             </div>
-            <div class="col-1-of-2"></div>
+            <div class="col-1-of-2">
+              <form action="#" class="form">
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Name"
+                    id="name"
+                    required
+                  />
+                  <label for="name" class="form__label">Name*</label>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="E-Mail"
+                    id="email"
+                    required
+                  />
+                  <label for="email" class="form__label">E-Mail*</label>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="number"
+                    class="form__input"
+                    placeholder="Telefonnummer"
+                    id="phone"
+                  />
+                  <label for="email" class="form__label">Telefonnummer</label>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Was hast du auf dem Herzen"
+                    id="message"
+                  />
+                  <label for="email" class="form__label">Deine Nachricht</label>
+                </div>
+
+                <div class="form__group u-margin-bottom-medium">
+                  <div class="form__checkbox u-margin-bottom-medium">
+                    <input type="checkbox" id="scales" name="scales" />
+                    <label for="scales"
+                      >Ich akzeptiere die Datenschutzerklärung</label
+                    >
+                  </div>
+                  <div class="form__group">
+                    <a
+                      href="#"
+                      class="btn btn--anthrazit btn--animated btn__center"
+                      >abschicken</a
+                    >
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </section>

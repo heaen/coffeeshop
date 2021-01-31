@@ -1,0 +1,59 @@
+.form {
+  &__group:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  &__input {
+    font-size: 1.5rem;
+    color: $color-orange;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    background-color: rgba($color-grey-light, 0.5);
+    border: none;
+    border-bottom: 3px solid transparent;
+    width: 90%;
+    display: block;
+    transition: all 0.3s;
+
+    @include respond(tab-port) {
+      width: 100%;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba($color-anthrazit, 0.1);
+      border-bottom: 3px solid $color-black;
+    }
+
+    &:focus:invalid {
+      border-bottom: 3px solid $color-black;
+    }
+
+    &::-webkit-input-placeholder {
+      color: $color-anthrazit;
+    }
+  }
+
+  &__label {
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    color: $color-black;
+  }
+
+  &__input:placeholder-shown + &__label {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4rem);
+  }
+
+  &__checkbox {
+    font-size: 1.8rem;
+    color: $color-black;
+    font-weight: 400;
+  }
+}
