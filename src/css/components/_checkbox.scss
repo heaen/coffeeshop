@@ -1,16 +1,16 @@
 input[type="checkbox"] {
-  position: absolute;
+  position: relative;
   top: -20px;
   left: -15px;
+  visibility: hidden;
 }
 
 #subscribeNews[type="checkbox"]:checked + label::before {
   box-shadow: inset 0px 0px 0px 5px #fff;
   background-color: #000000;
-  border-radius: 10px;
+  border-radius: 8px;
   border: 2px solid #000000;
-  margin-right: 2rem;
-  margin-top: -1rem;
+  margin-top: -0.6rem;
 }
 
 #subscribeNews[type="checkbox"] + label::before {
@@ -22,6 +22,5 @@ input[type="checkbox"] {
   display: block;
   content: "";
   float: left;
-  margin-right: 2rem;
-  margin-top: -1rem;
+  margin-top: -0.6rem;
 }

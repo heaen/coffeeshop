@@ -5,17 +5,17 @@
 
   &__input {
     font-size: 1.5rem;
-    color: $color-orange;
     font-family: inherit;
-    color: inherit;
+    color: $color-black;
     padding: 1.5rem 2rem;
     border-radius: 2px;
-    background-color: rgba($color-grey-light, 0.5);
+    background-color: rgba($color-white, 0.5);
     border: none;
     border-bottom: 3px solid transparent;
     width: 90%;
     display: block;
     transition: all 0.3s;
+    border-bottom: 3px solid $color-black;
 
     @include respond(tab-port) {
       width: 100%;
@@ -28,27 +28,20 @@
     }
 
     &:focus:invalid {
-      border-bottom: 3px solid $color-black;
+      border-bottom: 3px solid $color-grey-light;
     }
 
     &::-webkit-input-placeholder {
-      color: $color-anthrazit;
+      color: $color-grey-medium;
     }
   }
 
   &__label {
     font-size: 1.8rem;
-    margin-left: 2rem;
     margin-top: 0.7rem;
     display: block;
     transition: all 0.3s;
     color: $color-black;
-  }
-
-  &__input:placeholder-shown + &__label {
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-4rem);
   }
 
   &__checkbox {
