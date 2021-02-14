@@ -69,6 +69,11 @@
   background-color: $color-white;
   padding-top: 25rem;
   margin-top: 8rem;
+
+  &--shop {
+    background-color: $color-white;
+    padding-top: 20rem;
+  }
 }
 
 .section-footer {
@@ -129,4 +134,10 @@
   padding-bottom: 10rem;
   position: relative;
   max-width: 100%;
+}
+
+.section-shop {
+  background-color: $color-white;
+  padding-top: 16rem;
+  padding-bottom: 2rem;
 }

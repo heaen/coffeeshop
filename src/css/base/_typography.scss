@@ -154,6 +154,14 @@ body {
     color: $color-grey-medium;
     display: block;
   }
+
+  &__black {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2;
+    color: $color-black;
+    display: block;
+  }
 }
 
 .link {

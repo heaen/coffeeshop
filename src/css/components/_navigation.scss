@@ -41,7 +41,6 @@
   padding: 2rem;
   z-index: 9;
   transition: background-color 0.4s ease-out;
-  left: 0;
 
   @include respond(tab-port) {
     display: flex;
@@ -64,53 +63,23 @@
 }
 
 .hamburger-menu {
-  height: 2.3rem;
+  height: 3rem;
 }
 
-/*
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  top: 0;
-  left: 100;
-  background-color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.97);
-  overflow-x: hidden;
-  transition: 0.5s;
-}
-*/
-
-//https://www.taniarascia.com/responsive-dropdown-navigation-bar/
-
-/*
-.overlay-content {
-  top: 0;
-  left: 0;
-  position: fixed;
-  z-index: 100;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  background-color: $color-black;
-  justify-content: center;
-  transition: right 0.5s ease-in;
-}
-*/
-
-.navM-menu {
+.overlay-content a {
   padding: 8px;
   text-decoration: none;
   font-size: 5rem;
   color: #ffffff;
+  display: none;
   transition: 0.3s;
-  display: flex;
   font-family: "Roboto", sans-serif;
 }
 
-.overlay-content ul {
-  list-style-type: none;
-  padding-top: 30rem;
+.navbar-fixed-top.scrolled {
+  background-color: $color-white !important;
+  color: $color-anthrazit;
+  transition: background-color 200ms linear;
 }
 
 .link-underline {
