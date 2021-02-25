@@ -66,6 +66,10 @@
   height: 3rem;
 }
 
+.close-menu {
+  height: 5rem;
+}
+
 .overlay-content a {
   padding: 8px;
   text-decoration: none;
@@ -149,12 +153,6 @@
   }
 }
 
-.navbar-fixed-top.scrolled {
-  background-color: $color-white !important;
-  color: $color-anthrazit;
-  transition: background-color 200ms linear;
-}
-
 .linkb-underline {
   position: relative;
   color: $color-black;
@@ -221,7 +219,8 @@
       a {
         color: #fff;
         text-decoration: none;
-        font-size: 6rem;
+        font-size: 4rem;
+        font-weight: 900;
         line-height: 2.2;
       }
     }
@@ -230,4 +229,10 @@
   @include respond(tab-port) {
     display: flex;
   }
+}
+
+.close-menu {
+  right: 40px;
+  top: 20px;
+  position: absolute;
 }
