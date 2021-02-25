@@ -7,26 +7,29 @@
 }
 
 html {
-  font-size: 112.5%; //1rem is 10px = 10/16
+  font-size: 62.5%; //1rem is 10px = 10/16
 
   @include respond(tab-land) {
     //width < 992px
     //1rem is 9px = 9/16
+    font-size: 56.25%;
   }
 
   @include respond(tab-port) {
     //width < 768px
     //1rem is 8px = 8/16
-    font-size: 87.5%;
+    font-size: 50%;
   }
 
   @include respond(phone) {
     //width < 576px
     //1rem is 9px = 9/16
+    font-size: 56.25%;
   }
 
   @include respond(big-desktop) {
     //1rem is 12px = 12/16
+    font-size: 75%;
   }
 }
 
