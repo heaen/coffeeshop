@@ -1,15 +1,8 @@
 # Usage
 
-To use this example you have to have Node.js installed and a package manager with it. I recommend using yarn, but npm will work just as fine for a simple example like this.
+To use this example you have to have Node.js installed and a package manager with it. I recommend using yarn.
 
 Install packages and run startup script:
-
-```
-npm install
-npm start
-```
-
-or
 
 ```
 yarn
