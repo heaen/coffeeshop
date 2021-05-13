@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,78 +20,377 @@
             <img
               src="../logo/Logo.svg"
               alt="Logo"
-              class="header__logo icon_filter--white"
+              class="header__logo icon_filter--black"
           /></a>
         </div>
         <ul class="navD-line">
           <li class="navD-menu">
-            <a class="link-underline" href="../my-subpage/cafe.html"
-              >das Café</a
-            >
+            <a class="linkb-underline" href="cafe.html">das Café</a>
           </li>
           <li class="navD-menu">
-            <a class="link-underline" href="../my-subpage/origin.html"
-              >Herkunft</a
-            >
+            <a class="linkb-underline" href="origin.html">Herkunft</a>
           </li>
           <li class="navD-menu">
-            <a class="link-underlined" href="../my-subpage/shop.html">Shop</a>
+            <a class="linkb-underline" href="shop.html">Shop</a>
+          </li>
+          <li class="navD-menu">
+            <a href="#">
+              <img
+                src="../icn/cart.svg"
+                alt="Warenkorb"
+                class="header__cart icon_filter--black"
+            /></a>
           </li>
         </ul>
       </div>
     </nav>
-    <div class="navM overlay">
+    <div class="navM">
       <div class="navM-overall">
         <div class="header__logo-box">
           <a href="../index.html">
             <img
               src="../logo/Logo.svg"
               alt="Logo"
-              class="header__logo icon_filter--white"
+              class="header__logo icon_filter--black"
           /></a>
         </div>
         <ul class="navM-line">
           <li class="navM-menu">
-            <img
-              src="../icn/Burger Menu.svg"
-              alt="hamburger menu"
-              class="hamburger-menu icon_filter--white"
-            />
+            <button class="menu-btn">
+              <img
+                src="../icn/Burger Menu.svg"
+                alt="hamburger menu"
+                class="hamburger-menu icon_filter--black"
+              />
+            </button>
           </li>
-          <div class="overlay-content">
-            <a class="" href="#">das Cafe</a>
-            <a class="" href="#">Herkunft</a>
-            <a class="" href="#">Shop</a>
-          </div>
         </ul>
       </div>
     </div>
-    <header class="header-shop">
-      <div class="header__text-box">
-        <h1 class="heading-primary">
-          <span class="heading-primary--main">Shop</span>
-          <span class="heading-primary--sub"></span>
-        </h1>
-      </div>
-    </header>
+    <nav class="nav-mobile">
+      <button class="menu-close-button">
+        <img
+          src="../icn/BurgerMenu-closed.svg"
+          alt="close hamburger menu"
+          class="close-menu icon_filter--white"
+        />
+      </button>
+      <ul>
+        <li><a href="cafe.html">das Cafe</a></li>
+        <li><a href="origin.html">Herkunft</a></li>
+        <li><a href="shop.html">Shop</a></li>
+      </ul>
+    </nav>
     <main>
-      <section class="section-about">
+      <section class="section-shop">
+        <h2 class="heading-secondary push u-margin-bottom-medium">
+          Entdecke unsere <br />Kaffee Sorten
+        </h2>
         <div class="push-container">
-          <div class="info center-container">
-            <h2 class="heading-secondary u-margin-bottom-big">Der Shop</h2>
-            <p class="paragraph u-margin-bottom-big">
-              Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und
-              Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in
-              Buchstabhausen an der Küste des Semantik, eines großen
-              Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren
-              Ort und versorgt sie mit den nötigen Regelialien. Es ist ein
-              paradiesmatisches Land, in dem einem gebratene Satzteile in den
-              Mund fliegen.Nicht einmal von der allmächtigen Interpunktion
-              werden die Blindtexte beherrscht – ein geradezu unorthographisches
-              Leben.
-            </p>
+          <div class="row">
+            <div class="col-1-of-4">
+              <div class="background-color">
+                <img
+                  src="../img/FEND_Coffee_Costa-Rica 2.png"
+                  alt="coffee bag type Costa Rica"
+                  class="image__explore u-margin-bottom-medium"
+                />
+              </div>
+              <p class="description__black">Costa Rica</p>
+              <p class="description__grey u-margin-bottom-small">
+                6,90€ – 26,90€
+              </p>
+              <div class="row__gallery">
+                <div class="col-1-of-8 u-margin-bottom-big">
+                  <img
+                    src="../icn/coffeebones.svg"
+                    alt="Icon Coffeebones"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/frenchpress.svg"
+                    alt="Icon Frenchpress"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/handcrafted.svg"
+                    alt="Icon Handcrafted"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-4">
+              <div class="background-color">
+                <img
+                  src="../img/FEND_Coffee_Costa-Rica 2.png"
+                  alt="coffee bag type Äthiopia"
+                  class="image__explore u-margin-bottom-medium"
+                />
+              </div>
+              <p class="description__black">Äthiopien</p>
+              <p class="description__grey u-margin-bottom-small">
+                6,90€ – 26,90€
+              </p>
+              <div class="row__gallery">
+                <div class="col-1-of-8 u-margin-bottom-big">
+                  <img
+                    src="../icn/coffeebones.svg"
+                    alt="Icon Coffeebones"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/frenchpress.svg"
+                    alt="Icon Frenchpress"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/handcrafted.svg"
+                    alt="Icon Handcrafted"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-4">
+              <div class="background-color">
+                <img
+                  src="../img/FEND_Coffee_Costa-Rica 2.png"
+                  alt="coffee bag type Costa Rica"
+                  class="image__explore u-margin-bottom-medium"
+                />
+              </div>
+              <p class="description__black">Costa Rica</p>
+              <p class="description__grey u-margin-bottom-small">
+                6,90€ – 26,90€
+              </p>
+              <div class="row__gallery">
+                <div class="col-1-of-8 u-margin-bottom-big">
+                  <img
+                    src="../icn/coffeebones.svg"
+                    alt="Icon Coffeebones"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/frenchpress.svg"
+                    alt="Icon Frenchpress"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/handcrafted.svg"
+                    alt="Icon Handcrafted"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-4">
+              <div class="background-color">
+                <img
+                  src="../img/FEND_Coffee_Costa-Rica 2.png"
+                  alt="coffee bag type Äthiopia"
+                  class="image__explore u-margin-bottom-medium"
+                />
+              </div>
+              <p class="description__black">Äthiopien</p>
+              <p class="description__grey u-margin-bottom-small">
+                6,90€ – 26,90€
+              </p>
+              <div class="row__gallery">
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/coffeebones.svg"
+                    alt="Icon Coffeebones"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/frenchpress.svg"
+                    alt="Icon Frenchpress"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/handcrafted.svg"
+                    alt="Icon Handcrafted"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="push-container">
+          <div class="row">
+            <div class="col-1-of-4">
+              <div class="background-color">
+                <img
+                  src="../img/FEND_Coffee_Costa-Rica 2.png"
+                  alt="coffee bag type Costa Rica"
+                  class="image__explore u-margin-bottom-medium"
+                />
+              </div>
+              <p class="description__black">Costa Rica</p>
+              <p class="description__grey u-margin-bottom-small">
+                6,90€ – 26,90€
+              </p>
+              <div class="row__gallery">
+                <div class="col-1-of-8 u-margin-bottom-big">
+                  <img
+                    src="../icn/coffeebones.svg"
+                    alt="Icon Coffeebones"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/frenchpress.svg"
+                    alt="Icon Frenchpress"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/handcrafted.svg"
+                    alt="Icon Handcrafted"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-4">
+              <div class="background-color">
+                <img
+                  src="../img/FEND_Coffee_Costa-Rica 2.png"
+                  alt="coffee bag type Äthiopia"
+                  class="image__explore u-margin-bottom-medium"
+                />
+              </div>
+              <p class="description__black">Äthiopien</p>
+              <p class="description__grey u-margin-bottom-small">
+                6,90€ – 26,90€
+              </p>
+              <div class="row__gallery">
+                <div class="col-1-of-8 u-margin-bottom-big">
+                  <img
+                    src="../icn/coffeebones.svg"
+                    alt="Icon Coffeebones"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/frenchpress.svg"
+                    alt="Icon Frenchpress"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/handcrafted.svg"
+                    alt="Icon Handcrafted"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-4">
+              <div class="background-color">
+                <img
+                  src="../img/FEND_Coffee_Costa-Rica 2.png"
+                  alt="coffee bag type Costa Rica"
+                  class="image__explore u-margin-bottom-medium"
+                />
+              </div>
+              <p class="description__black">Costa Rica</p>
+              <p class="description__grey u-margin-bottom-small">
+                6,90€ – 26,90€
+              </p>
+              <div class="row__gallery">
+                <div class="col-1-of-8 u-margin-bottom-big">
+                  <img
+                    src="../icn/coffeebones.svg"
+                    alt="Icon Coffeebones"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/frenchpress.svg"
+                    alt="Icon Frenchpress"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/handcrafted.svg"
+                    alt="Icon Handcrafted"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-4">
+              <div class="background-color">
+                <img
+                  src="../img/FEND_Coffee_Costa-Rica 2.png"
+                  alt="coffee bag type Äthiopia"
+                  class="image__explore u-margin-bottom-medium"
+                />
+              </div>
+              <p class="description__black">Äthiopien</p>
+              <p class="description__grey u-margin-bottom-small">
+                6,90€ – 26,90€
+              </p>
+              <div class="row__gallery">
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/coffeebones.svg"
+                    alt="Icon Coffeebones"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+                <div class="col-1-of-8">
+                  <img src="../icn/frenchpress.svg" alt="Icon Frenchpress"
+                  class="icon__explore icon_filter--black />
+                </div>
+                <div class="col-1-of-8">
+                  <img
+                    src="../icn/handcrafted.svg"
+                    alt="Icon Handcrafted"
+                    class="icon__explore icon_filter--black"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-map--shop">
+        <div class="heading-secondary__push">
+          <h2 class="heading-secondary u-margin-bottom-xsmall">Komm vorbei!</h2>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1162.9130110443957!2d10.121215656727165!3d54.342383107338435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b2560c4923d5c7%3A0xca5dbbc0c523e4f!2sFraunhoferstra%C3%9Fe%2014%2C%2024118%20Kiel!5e0!3m2!1sde!2sde!4v1610018852395!5m2!1sde!2sde"
+          class="map"
+          tabindex="0"
+        ></iframe>
+        >
       </section>
 
       <section class="section-footer">
@@ -136,12 +435,11 @@
             <div class="col-1-of-4">
               <div class="link">
                 <div class="link__footer">
-                  <a href="#" class="link__footer--white">Datenschutz</a>
-                  <a
-                    href="../my-subpage/imprint.html"
-                    class="link__footer--white"
+                  <a href="imprint.html" class="link__footer--white"
                     >Impressum</a
                   >
+                  <a href="#" class="link__footer--white">Datenschutz</a>
+                  <a href="contact.html" class="link__footer--white">Kontakt</a>
                 </div>
               </div>
             </div>

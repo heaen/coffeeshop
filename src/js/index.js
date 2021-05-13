@@ -1,7 +1,3 @@
-import myFunction, { multiply } from "./myModule";
+import hamburger from "./hamburger";
 
-myFunction();
-
-const result = multiply(2, 5);
-
-console.log(result);
+hamburger();

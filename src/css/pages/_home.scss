@@ -48,7 +48,7 @@
 
 .section-gallery {
   background-color: $color-white;
-  padding-bottom: 2rem;
+  padding-bottom: 0;
   position: relative;
   max-width: 100%;
 
@@ -69,6 +69,11 @@
   background-color: $color-white;
   padding-top: 25rem;
   margin-top: 8rem;
+
+  &--shop {
+    background-color: $color-white;
+    padding-top: 20rem;
+  }
 }
 
 .section-footer {
@@ -121,4 +126,18 @@
   @include respond(tab-land) {
     padding: 22rem 20rem 22rem 20rem;
   }
+}
+
+.section-contact {
+  background-color: $color-white;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  position: relative;
+  max-width: 100%;
+}
+
+.section-shop {
+  background-color: $color-white;
+  padding-top: 16rem;
+  padding-bottom: 2rem;
 }

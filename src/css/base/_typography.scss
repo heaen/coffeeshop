@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  line-height: 1.1%;
+  line-height: 1.1;
   color: $color-white;
   text-transform: none;
   text-decoration: none;
@@ -28,7 +28,7 @@ body {
     display: block;
     font-size: 1.8rem;
     font-weight: 400;
-    margin-bottom: 13rem;
+    margin-bottom: 8rem;
   }
 }
 
@@ -152,6 +152,14 @@ body {
     font-weight: 400;
     line-height: 2;
     color: $color-grey-medium;
+    display: block;
+  }
+
+  &__black {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2;
+    color: $color-black;
     display: block;
   }
 }

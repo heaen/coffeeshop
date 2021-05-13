@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,22 +25,26 @@
         </div>
         <ul class="navD-line">
           <li class="navD-menu">
-            <a class="link-underlined" href="../my-subpage/cafe.html"
-              >das Café</a
-            >
+            <a class="link-underline" href="cafe.html">das Café</a>
           </li>
           <li class="navD-menu">
-            <a class="link-underline" href="../my-subpage/origin.html"
-              >Herkunft</a
-            >
+            <a class="link-underline" href="origin.html">Herkunft</a>
           </li>
           <li class="navD-menu">
-            <a class="link-underline" href="../my-subpage/shop.html">Shop</a>
+            <a class="link-underline" href="shop.html">Shop</a>
+          </li>
+          <li class="navD-menu">
+            <a href="#">
+              <img
+                src="../icn/cart.svg"
+                alt="Warenkorb"
+                class="header__cart icon_filter--white"
+            /></a>
           </li>
         </ul>
       </div>
     </nav>
-    <div class="navM overlay">
+    <div class="navM">
       <div class="navM-overall">
         <div class="header__logo-box">
           <a href="../index.html">
@@ -52,20 +56,31 @@
         </div>
         <ul class="navM-line">
           <li class="navM-menu">
-            <img
-              src="../icn/Burger Menu.svg"
-              alt="hamburger menu"
-              class="hamburger-menu icon_filter--white"
-            />
+            <button class="menu-btn">
+              <img
+                src="../icn/Burger Menu.svg"
+                alt="hamburger menu"
+                class="hamburger-menu icon_filter--white"
+              />
+            </button>
           </li>
-          <div class="overlay-content">
-            <a class="" href="#">das Cafe</a>
-            <a class="" href="#">Herkunft</a>
-            <a class="" href="#">Shop</a>
-          </div>
         </ul>
       </div>
     </div>
+    <nav class="nav-mobile">
+      <button class="menu-close-button">
+        <img
+          src="../icn/BurgerMenu-closed.svg"
+          alt="close hamburger menu"
+          class="close-menu icon_filter--white"
+        />
+      </button>
+      <ul>
+        <li><a href="cafe.html">das Cafe</a></li>
+        <li><a href="origin.html">Herkunft</a></li>
+        <li><a href="shop.html">Shop</a></li>
+      </ul>
+    </nav>
     <header class="header-cafe">
       <div class="header__text-box"></div>
     </header>
@@ -238,12 +253,11 @@
             <div class="col-1-of-4">
               <div class="link">
                 <div class="link__footer">
-                  <a href="#" class="link__footer--white">Datenschutz</a>
-                  <a
-                    href="../my-subpage/imprint.html"
-                    class="link__footer--white"
+                  <a href="imprint.html" class="link__footer--white"
                     >Impressum</a
                   >
+                  <a href="#" class="link__footer--white">Datenschutz</a>
+                  <a href="contact.html" class="link__footer--white">Kontakt</a>
                 </div>
               </div>
             </div>
