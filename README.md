@@ -2,11 +2,11 @@
 
 To use this example you have to have Node.js installed and a package manager with it. I recommend using yarn.
 
-Install packages and run startup script:
+Install packages and run the startup script:
 
 ```
-yarn
-yarn start
+npm install
+npm start
 ```
 
 ESLint is used to check your JS code for errors, so make sure to install the following extension in VS Code: `dbaeumer.vscode-eslint`.

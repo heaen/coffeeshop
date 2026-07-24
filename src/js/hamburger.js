@@ -3,6 +3,10 @@ function hamburger() {
   const closeBtn = document.querySelector(".menu-close-button");
   const menu = document.querySelector(".nav-mobile");
 
+  if (!menuBtn || !closeBtn || !menu) {
+    return;
+  }
+
   menuBtn.addEventListener("click", () => {
     menu.classList.add("open");
     document.body.style.overflow = "hidden";

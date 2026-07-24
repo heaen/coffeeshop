@@ -27,17 +27,29 @@
   width: auto;
   position: absolute;
   background: #e9e9e9;
+  transition: transform 250ms ease, box-shadow 250ms ease;
 
   &__explore {
     position: relative;
     object-position: left;
     display: block;
     max-width: 100%;
+    transition: transform 250ms ease, box-shadow 250ms ease;
   }
 }
 
 .background-color {
   background-color: $color-grey-light;
+  transition: transform 250ms ease, box-shadow 250ms ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1.2rem 2.8rem rgba($color-black, 0.12);
+
+    .image__explore {
+      transform: scale(1.02);
+    }
+  }
 }
 
 .icon__explore {
@@ -47,4 +59,10 @@
 .gallery-image {
   width: 29rem;
   height: auto;
+  transition: transform 250ms ease, box-shadow 250ms ease;
+
+  &:hover {
+    transform: translateY(-3px) scale(1.01);
+    box-shadow: 0 1rem 2.2rem rgba($color-black, 0.12);
+  }
 }

@@ -22,6 +22,7 @@ body {
     font-weight: 900;
     margin-top: 7rem;
     margin-bottom: 6rem;
+    animation: fade-in-up 700ms ease both;
   }
 
   &--sub {
@@ -29,6 +30,7 @@ body {
     font-size: 1.8rem;
     font-weight: 400;
     margin-bottom: 8rem;
+    animation: fade-in-up 700ms ease 120ms both;
   }
 }
 
@@ -40,6 +42,7 @@ body {
   letter-spacing: 0.2rem;
   transition: all 0.2s;
   line-height: 1.1;
+  animation: fade-in-up 600ms ease both;
 
   &__push {
     background-color: $color-white;
@@ -79,6 +82,7 @@ body {
     font-size: 4.2rem;
     font-weight: 900;
     margin-bottom: 6.2rem;
+    animation: fade-in-up 600ms ease both;
   }
 
   &--sub {
@@ -93,6 +97,7 @@ body {
     font-weight: 900;
     display: block;
     line-height: 1.1;
+    animation: fade-in-up 600ms ease both;
   }
 }
 
@@ -101,6 +106,7 @@ body {
   line-height: 1.5;
   font-weight: 400;
   color: $color-anthrazit;
+  animation: fade-in 500ms ease both;
 
   &__white {
     font-size: 1.4rem;
@@ -108,6 +114,7 @@ body {
     font-weight: 400;
     color: $color-white;
     margin-top: -2rem;
+    animation: fade-in 500ms ease both;
 
     &--block {
       display: block;
