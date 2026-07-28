@@ -39,10 +39,54 @@
   position: relative;
 
   &__text-box {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: static;
     text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .row {
+    align-items: center;
+  }
+
+  &__list {
+    .row {
+      margin: 0 0 1.8rem;
+    }
+
+    .btn {
+      margin-top: 1.2rem;
+    }
+  }
+
+  @include respond(tab-port) {
+    padding-top: 12rem;
+
+    .push-container {
+      padding-left: 2.4rem;
+      padding-right: 2.4rem;
+    }
+
+    > .push-container > .row > .col-1-of-2 {
+      width: 100% !important;
+    }
+
+    .section-incredients__list {
+      margin-top: 1.2rem;
+
+      .row {
+        align-items: center;
+      }
+
+      .col-1-of-4 {
+        width: 7rem !important;
+        margin-right: 1.6rem;
+        margin-bottom: 0;
+      }
+
+      .col-3-of-4 {
+        width: calc(100% - 8.6rem) !important;
+      }
+    }
   }
 }
 

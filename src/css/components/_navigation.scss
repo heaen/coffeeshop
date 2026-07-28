@@ -5,7 +5,8 @@
   color: $color-white;
   background-color: transparent;
   display: flex;
-  flex-flow: row-reverse;
+  flex-flow: row;
+  align-items: center;
   padding: 2rem;
   z-index: 9;
   transition: background-color 0.4s ease-out;
@@ -43,7 +44,8 @@
   color: $color-white;
   background-color: transparent;
   display: none;
-  flex-flow: row-reverse;
+  flex-flow: row;
+  align-items: center;
   padding: 2rem;
   z-index: 9;
   transition: background-color 0.4s ease-out;
@@ -72,6 +74,42 @@
       display: inline;
     }
   }
+}
+
+.navD-overall,
+.navM-overall {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  position: relative;
+
+  .header__logo-box {
+    position: static;
+    left: auto;
+    margin-right: auto;
+  }
+}
+
+.navD-line,
+.navM-line {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__cart {
+  height: 2.6rem;
+  width: auto;
 }
 
 .hamburger-menu {
